@@ -1,4 +1,6 @@
-body {
+html, body {
+    height: 100%;
+    padding: 0;
     margin: 0;
     font-family: 'Georgia', serif;
     background-color: #f6f2ec;
@@ -77,6 +79,41 @@ body {
     border-radius: 8px;
   }
   
+  .contato {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contato input, .contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+  }
+  
+  .contato button {
+    background-color: #3e2c1c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contato button:hover {
+    background-color: #d3b08a;
+    color: #3e2c1c;
+  }
+
   footer {
     background-color: #3e2c1c;
     color: white;

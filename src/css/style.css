@@ -31,4 +31,12 @@ body {
   nav a:hover {
     color: #d3b08a;
   }
-  
+
+  .lema {
+    background-image: url(/src/assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }

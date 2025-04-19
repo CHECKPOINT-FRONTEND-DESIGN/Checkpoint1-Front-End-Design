@@ -71,3 +71,16 @@ body {
     max-width: 250px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
   }
+
+  .produto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #3e2c1c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }

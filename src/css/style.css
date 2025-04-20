@@ -106,7 +106,6 @@ html, body {
     padding: 10px;
     border-radius: 6px;
     cursor: pointer;
-    transition: background 0.3s ease;
   }
   
   .contato button:hover {
